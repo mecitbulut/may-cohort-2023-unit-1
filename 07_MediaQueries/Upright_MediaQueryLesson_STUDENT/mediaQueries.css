@@ -1,0 +1,85 @@
+/*! Media Query Build */
+/*
+    common units of measurements
+        - percenyage - %
+        - viewport width - vm
+        - viewport Height - vh
+        - root element font-size - rem
+        - parent font-size - em
+
+    using medai queiries
+        ex:
+            @media screen {  <-- targets screen only
+                div {  <-- element to adjust
+                    background- color: blue; <-- attribute of element
+                }
+            }
+
+            ? AND
+            @media screen and (min-width: 750px) {
+                ... element declared here
+            }
+            
+
+            ? OR
+            @media screen, (min-width: 750px) {
+                ... elements declared here
+            }
+
+     *   Build with mobile first consept!
+*/
+
+@media (max-width: 420px)
+     /* body */ 
+     .desc {
+        background-color: ;
+     }
+
+     /* Global */
+     p {
+        font-size: 16pt;
+     }
+
+     /* Menu */
+     .item-desc {
+        width: 100vm;
+     }
+
+     .desc {
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .desc > p {
+        padding:  1rem 3rem;
+     }
+
+    /* Footer */
+    footer {
+        font-size: x-large;
+        background-color: red;
+    }
+
+    /* 
+CHALLENGE 1:
+    - If the user is viewing the page in a landscape mode on their phone (galaxy), increase the font size of the nav bar and footer.
+    - Include a bit of spacing within the footer so that the text isn't directly on the bottom of the screen.
+
+Your code below
+*/
+
+
+/*
+CHALLENGE 2:
+    - Create a media query to accept a screen AND the width of a iPhone SE (375px).
+    - Have the navigational options not display.
+    - Enlarge the Brand so that it is more of a focal point in the header. 
+        - approx. 30-40pt
+
+Your code below
+*/
+ 
+    
+
+
+

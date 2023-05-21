@@ -1,0 +1,18 @@
+.keypad {
+    margin: 70px 70px; 
+    border: solid black 1px;
+    display: grid;
+    grid-template: repeat(4, 25%) / repeat(3, 33.3%);
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+
+.key {
+    border: solid rgb(3, 2, 2) 3px;
+    background-color: slategray;
+    color: white;
+    font-size: xx-large;
+    padding: 20px;
+
+}
